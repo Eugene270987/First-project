@@ -23,7 +23,9 @@
       line-height: 1.3;
       color: var(  --mainColour);
       font-weight: 700;
-      cursor: pointer;
+      &:hover{
+        cursor: pointer;
+      }
       &::before{
         content: "";
         background: url("../img/passive.svg") center / cover no-repeat;
