@@ -26,8 +26,6 @@ main {
 *,
 *::before,
 *::after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -142,7 +140,8 @@ a:hover {
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
-  text-decoration: underline dotted;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
 }
 
 b,
@@ -330,11 +329,11 @@ h1, h2, h3, h4, legend {
 }
 
 .btn-previous {
-  background-image: url("../../img/prev.svg");
+  background-image: url("../img/prev.svg");
 }
 
 .btn-next {
-  background-image: url("../../img/next.svg");
+  background-image: url("../img/next.svg");
 }
 
 /*Input*/
@@ -352,7 +351,9 @@ h1, h2, h3, h4, legend {
 }
 
 select {
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 .select__wrapper {
@@ -369,7 +370,7 @@ select {
   width: 20px;
   height: 20px;
   pointer-events: none;
-  background-image: url("../../img/arrow.svg");
+  background-image: url("../img/arrow.svg");
 }
 
 /*input ::-webkit-input-placeholder {
@@ -668,7 +669,9 @@ select {
   margin-bottom: 20px;
 }
 .questions__tab input {
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 .questions__tab p {
   display: none;
@@ -788,6 +791,4 @@ select {
 }
 .footer__contacts a:hover {
   text-decoration: underline;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
