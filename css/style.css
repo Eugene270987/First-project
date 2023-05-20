@@ -414,7 +414,7 @@ select {
 .promo {
   padding-top: 241px;
   padding-bottom: 358px;
-  background: url("../../img/promo_bg.jpg") center/cover no-repeat;
+  background: url("../img/promo_bg.jpg") center/cover no-repeat;
   color: var(--secondaryColour);
   border: 2px solid var(--activeColour);
 }
@@ -539,7 +539,7 @@ select {
 }
 
 .counter {
-  background: url("../../img/counter_bg.jpg") center/cover no-repeat;
+  background: url("../img/counter_bg.jpg") center/cover no-repeat;
   padding-top: 60px;
   padding-bottom: 60px;
   display: grid;
@@ -629,7 +629,7 @@ select {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0 84px;
-  background: url("../../img/article_bg.jpg") center/cover no-repeat;
+  background: url("../img/article_bg.jpg") center/cover no-repeat;
   color: var(--secondaryColour);
 }
 .articles a {
@@ -687,7 +687,7 @@ select {
 }
 .questions__tab-title::before {
   content: "";
-  background: url("../../img/passive.svg") center/cover no-repeat;
+  background: url("../img/passive.svg") center/cover no-repeat;
   width: 20px;
   height: 20px;
   margin-right: 15px;
@@ -704,14 +704,14 @@ select {
   content: "";
   width: 20px;
   height: 20px;
-  background: url("../../img/active.svg") center/contain no-repeat;
+  background: url("../img/active.svg") center/contain no-repeat;
 }
 .questions__tab :checked ~ .questions__tab-desc {
   display: block;
 }
 
 .map {
-  background: url("../../img/map_bg.jpg") center/cover no-repeat;
+  background: url("../img/map_bg.jpg") center/cover no-repeat;
   width: 100%;
   min-height: 600px;
   height: 100%;

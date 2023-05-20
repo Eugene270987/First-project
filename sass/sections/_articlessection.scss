@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0 84px;
-  background: url("../../img/article_bg.jpg") center / cover no-repeat;
+  background: url("../img/article_bg.jpg") center / cover no-repeat;
   color: var(--secondaryColour);
 
   a{
