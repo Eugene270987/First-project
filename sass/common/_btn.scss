@@ -45,10 +45,16 @@
 
 .btn-previous{
   background-image: url("../img/prev.svg");
+  &:hover{
+    background-image: url("../img/left-accent.svg");
+  }
 }
 
 .btn-next{
   background-image: url("../img/next.svg");
+  &:hover{
+    background-image: url("../img/right-accent.svg");
+  }
 }
 
 /*Input*/
