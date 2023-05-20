@@ -467,7 +467,7 @@ select {
 .about {
   padding-top: 60px;
   padding-bottom: 60px;
-  background: url("../../img/about_me-bg.jpg") center/cover no-repeat;
+  background: url("../img/about_me-bg.jpg") center/cover no-repeat;
   border: 3px solid var(--accentColour);
   display: grid;
   grid-template-columns: 1fr 495px;
